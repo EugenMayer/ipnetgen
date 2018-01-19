@@ -65,3 +65,7 @@ func (g *IPNetGenerator) Next() net.IP {
 
 	return g.current
 }
+
+func (g *IPNetGenerator) Current() net.IP {
+	return g.current
+}
