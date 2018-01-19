@@ -63,5 +63,5 @@ func (g *IPNetGenerator) Next() net.IP {
 	copy(current, g.current)
 	Increment(g.current)
 
-	return current
+	return g.current
 }
